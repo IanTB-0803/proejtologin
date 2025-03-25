@@ -24,6 +24,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
     height: 515px;
@@ -32,7 +33,6 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
     transition: height 0.3s, width 0.3s;
     transition-timing-function: ease;
-    transform: translate(-50%, -50%);
 }
 
 section#login>div#imagem {
@@ -84,10 +84,10 @@ div#formulario>p {
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
+    transform: translate(40px, -36px);
     border: none;
     border-radius: 8px;
     padding: 4px;
-    transform: translate(40px, -36px);
 }
 
 .campo input:focus-within {
