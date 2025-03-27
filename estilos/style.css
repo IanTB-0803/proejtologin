@@ -9,7 +9,7 @@
 
 body,
 html {
-    background-color: #2f822c;
+    background-color: #822c65;
     height: 100vh;
     width: 100vw;
 }
@@ -80,7 +80,7 @@ div#formulario>p {
 }
 
 .campo input {
-    background-color: #f3eec5;
+    background-color: #fffce2;
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
@@ -126,7 +126,7 @@ form>a.botao {
 
 form>a.botao:hover {
     background-color: #c5ba5a;
-    color: white;
+    color:white;
 }
 form>a.botao > span {
     font-size: 0.8em;
